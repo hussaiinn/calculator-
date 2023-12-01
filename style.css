@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Vollkorn&display=swap');         
+html, body{
+    height: 100%;
+    width: 100%;
+    background:black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    /* margin-top: 2rem; */
+    /* border: 2px solid black; */
+}
+.cal-con{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background:#425062;
+    box-shadow:1px 1px 12px 6px rgb(6 41 89 / 96%);
+    border-radius: 10px;
+}
+.button{
+    display: inline-flex;
+    justify-content: center;
+    padding: 35px;
+    margin: 6px;
+    border-radius: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.6);
+    cursor:pointer;
+    width: 6rem;
+}
+
+.row input{
+    padding: 20px 0;
+    font-size: 40px;
+    font-family: 'Architects Daughter', cursive;
+    margin:1rem 0px 0px 0;
+    border: 3px solid rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    text-align: center;
+}
+.button{
+    font-size: 28px;
+    font-weight: 600;
+}
